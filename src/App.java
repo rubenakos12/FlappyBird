@@ -5,6 +5,7 @@ import java.util.Objects;
 public class App
 {
     public static void main(String[] args) {
+        //main frame
         JFrame GameFrame=new JFrame("Flappy Bird");
         Image image = new ImageIcon(App.class.getResource("./flappybird.png")).getImage();
         GameFrame.setIconImage(image);
